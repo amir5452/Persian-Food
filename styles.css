@@ -1,0 +1,88 @@
+/* General CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #555;
+}
+
+/* Hero Section */
+.section-hero {
+  background-color: #fdf2e9;
+}
+
+.hero-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 130rem;
+  margin: 0 auto;
+  align-items: center;
+  column-gap: 9.6rem;
+  padding: 9.6rem 0;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 3.2rem;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 2rem;
+  color: #fff;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  font-weight: 700;
+  text-decoration: none;
+
+  transition: all 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  margin-right: 1.6rem;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  color: #555;
+  background-color: #fff;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.hero-img {
+  width: 100%;
+}
