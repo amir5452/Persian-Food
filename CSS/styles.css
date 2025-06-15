@@ -1,20 +1,49 @@
-/* General CSS */
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: inherit;
+/* Header */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+  padding: 3.2rem;
 }
 
-html {
-  font-size: 62.5%;
-  box-sizing: border-box;
+.header-section img {
+  width: 15rem;
 }
 
-body {
-  font-family: "Rubik", sans-serif;
-  font-weight: 400;
-  line-height: 1;
-  color: #555;
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #444;
+  font-size: 2rem;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+.main-nav-link.link-cta:link,
+.main-nav-link.link-cta:visited {
+  color: #fff;
+  background-color: #e67e22;
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+}
+
+.main-nav-link.link-cta:hover,
+.main-nav-link.link-cta:active {
+  background-color: #cf711f;
 }
 
 /* Hero Section */
