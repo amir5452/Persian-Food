@@ -159,7 +159,7 @@
 /* ********************* */
 /* How it works Section */
 /* ********************* */
-.step-intro {
+.orange-span {
   font-size: 1.6rem;
   color: #cf711f;
   letter-spacing: 0.75px;
@@ -249,4 +249,125 @@
 .logos img:hover {
   filter: brightness(1);
   opacity: 1;
+}
+
+/* **************** */
+/* Meals Section */
+/* **************** */
+
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+  transition: all 0.4s;
+}
+
+.meal:hover {
+  transform: translateY(-1.2rem);
+}
+
+.meal-img {
+  width: 100%;
+}
+
+.meal-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.tags {
+  margin-bottom: 1.6rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #555;
+  padding: 0.4rem 0.8rem;
+  border-radius: 100px;
+}
+
+.tag--vegetarian {
+  background-color: #51cf66;
+}
+
+.tag--vegan {
+  background-color: #94d82d;
+}
+
+.tag--paleo {
+  background-color: #ffd43b;
+}
+
+.meal-heading {
+  font-size: 2.4rem;
+  color: #333;
+  margin-bottom: 3.2rem;
+}
+
+.meal-lists {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.meal-list {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.meal-icon {
+  color: #e67e22;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.diets-heading {
+  font-size: 3rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 4.8rem;
+}
+
+.diets-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  font-size: 1.8rem;
+}
+
+.diet-list > ion-icon {
+  color: #e67e22;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.diet-list {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.recipes-link {
+  display: inline-block;
+  color: #e67e22;
+  font-size: 2rem;
+  text-decoration: none;
+  border-bottom: 2px solid currentColor;
+  padding-bottom: 4px;
+
+  transition: all 0.3s;
+}
+
+.recipes-link:hover {
+  color: #cf711f;
+  border-bottom-color: transparent;
 }

@@ -83,7 +83,7 @@ body {
 /* ******************** */
 .container {
   max-width: 120rem;
-  padding: 9.6rem 3.2rem;
+  padding: 4.8rem 3.2rem;
   margin: 0 auto;
 }
 
@@ -119,4 +119,17 @@ body {
   font-weight: 700;
   margin-bottom: 3.2rem;
   line-height: 1.2;
+}
+
+/* Additional Helper Classes */
+.center-text {
+  text-align: center;
+}
+
+.margin-top {
+  margin-bottom: 4.8rem;
+}
+
+.grid-cg {
+  column-gap: 4.8rem;
 }
