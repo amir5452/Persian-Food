@@ -59,6 +59,7 @@
   align-items: center;
   column-gap: 9.6rem;
   padding: 4.8rem 3.2rem;
+  padding-bottom: 9.6rem;
 }
 
 .heading-primary {
@@ -149,4 +150,64 @@
 .hero-delivered p > span {
   color: #cf711f;
   font-weight: 600;
+}
+
+/* ********************* */
+/* How it works Section */
+/* ********************* */
+.step-intro {
+  font-size: 1.6rem;
+  color: #cf711f;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  display: block;
+}
+
+.step-box {
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.step-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.step-img-box::before {
+  content: "";
+  padding: 30%;
+  z-index: -2;
+  border-radius: 50%;
+  background-color: #fdf2e9;
+  position: absolute;
+}
+
+.step-img-box::after {
+  content: "";
+  padding: 23%;
+  z-index: -1;
+  border-radius: 50%;
+  background-color: #fae5d3;
+  position: absolute;
+}
+
+.step-img {
+  width: 35%;
+}
+
+.step-number {
+  display: block;
+  font-size: 9.6rem;
+  font-weight: 700;
+  color: #ddd;
+  margin-bottom: 1.6rem;
+}
+
+.step-content {
+  font-size: 2rem;
+  line-height: 1.6;
 }
