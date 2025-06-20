@@ -341,13 +341,13 @@
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .diet-list > ion-icon {
   color: #e67e22;
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 3rem;
+  height: 3rem;
 }
 
 .diet-list {
@@ -370,4 +370,67 @@
 .recipes-link:hover {
   color: #cf711f;
   border-bottom-color: transparent;
+}
+
+/* **************** */
+/* Testimonials Section */
+/* **************** */
+.section-testimonials {
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  background-color: #fdf2e9;
+  align-items: center;
+}
+
+.testimonial-intro {
+  grid-column: span 2;
+}
+
+.testimonials {
+  column-gap: 4.8rem;
+  padding: 9.6rem;
+  row-gap: 4.8rem;
+}
+
+.testimonial-heading {
+  margin-bottom: 3.2rem;
+}
+
+.testimonial-img {
+  display: block;
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-quote {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 0.8rem;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #777;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  display: block;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
 }
