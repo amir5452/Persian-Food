@@ -107,6 +107,14 @@ body {
   grid-template-columns: repeat(5, 1fr);
 }
 
+.grid-row-gap {
+  row-gap: 4.8rem;
+}
+
+.grid-column-gap {
+  column-gap: 9.6rem;
+}
+
 .secendary-heading {
   font-size: 4.4rem;
   color: #333;
@@ -121,6 +129,25 @@ body {
   line-height: 1.2;
 }
 
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1.6rem;
+  font-size: 1.8rem;
+}
+
+.list-item {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.icon-check {
+  color: #e67e22;
+  font-size: 3.2rem;
+}
+
 /* Additional Helper Classes */
 .center-text {
   text-align: center;
@@ -128,6 +155,14 @@ body {
 
 .margin-top {
   margin-bottom: 4.8rem;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem;
+}
+
+.margin-top-lg {
+  margin-top: 9.6rem;
 }
 
 .grid-cg {
