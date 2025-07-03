@@ -198,7 +198,6 @@
   filter: brightness(0);
   opacity: 0.5;
   transition: all 0.3s;
-  cursor: pointer;
 }
 
 .logos img:hover {
@@ -538,6 +537,11 @@
   width: 100%;
   border: none;
   border-radius: 9px;
+  color: inherit;
+  font-size: 1.8rem;
+  font-family: inherit;
+
+  transition: 0.3s;
 }
 
 .cta-form input::placeholder {
@@ -562,10 +566,12 @@
   padding: 1.6rem 1.6rem 1.6rem 1.4rem;
   font-size: 1.8rem;
   border-radius: 9px;
+
+  transition: 0.3s;
 }
 
 .cta-form :focus {
-  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5) !important;
+  box-shadow: 0 0 0 1rem rgba(253, 242, 233, 0.5) !important;
 }
 
 .cta-img {
