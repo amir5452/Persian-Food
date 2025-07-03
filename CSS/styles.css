@@ -25,7 +25,7 @@
   display: inline-block;
   text-decoration: none;
   color: #444;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   transition: all 0.3s;
 }
@@ -582,4 +582,109 @@
     ),
     url(../img/eating.jpg);
   background-size: cover;
+}
+
+/* ***************** */
+/* footer Section */
+/* ***************** */
+
+.section-footer {
+  color: #767676;
+  padding: 12.8rem 0;
+  border-top: 0.5px solid #ddd;
+}
+
+.footer-grid {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.footer-logo-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 13rem;
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.social-logos {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.social-logo {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-bottom: 1.6rem;
+}
+
+.social-logo:hover {
+  color: #777;
+}
+
+.footer-copyright {
+  font-size: 1.6rem;
+  margin-top: auto;
+  line-height: 1.6;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  margin-bottom: 3.2rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.address-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 1.6rem;
+}
+
+.phone-num {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #767676;
+  margin-bottom: 0.4rem;
+  display: block;
+
+  transition: all 0.3s;
+}
+
+.footer-email {
+  text-decoration: none;
+  color: #767676;
+  font-size: 1.6rem;
+
+  transition: all 0.3s;
+}
+
+.footer-email:hover,
+.phone-num:hover {
+  color: #555;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  font-size: 1.6rem;
+}
+
+.footer-nav a:link,
+.footer-nav a:visited {
+  text-decoration: none;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-nav a:hover,
+.footer-nav a:active {
+  color: #555;
 }
