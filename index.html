@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="./CSS/general.css" />
     <link rel="stylesheet" href="./CSS/styles.css" />
     <link rel="stylesheet" href="./CSS/queries.css" />
+
+    <!-- script -->
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <header class="header-section open-nav">
@@ -25,12 +28,14 @@
       /></a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a href="#" class="main-nav-link">How it works</a></li>
-          <li><a href="#" class="main-nav-link">Meals</a></li>
-          <li><a href="#" class="main-nav-link">Testimonials</a></li>
-          <li><a href="#" class="main-nav-link">Pricing</a></li>
+          <li><a href="#how" class="main-nav-link">How it works</a></li>
+          <li><a href="#meals" class="main-nav-link">Meals</a></li>
           <li>
-            <a href="#" class="main-nav-link link-cta">Try it for free</a>
+            <a href="#testimonials" class="main-nav-link">Testimonials</a>
+          </li>
+          <li><a href="#pricing" class="main-nav-link">Pricing</a></li>
+          <li>
+            <a href="#cta" class="main-nav-link link-cta">Try it for free</a>
           </li>
         </ul>
       </nav>
@@ -53,8 +58,8 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs
             </p>
-            <a href="#" class="btn btn--full">Start eating well</a>
-            <a href="#" class="btn btn--outline">Learn more &darr;</a>
+            <a href="#cta" class="btn btn--full">Start eating well</a>
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
 
             <div class="hero-delivered">
               <div class="delivered-imgs">
@@ -118,7 +123,7 @@
       </section>
 
       <!-- How It Works Section -->
-      <section class="section-how">
+      <section class="section-how" id="how">
         <div class="container">
           <span class="step-intro orange-span">how it works</span>
           <h2 class="secendary-heading">
@@ -198,7 +203,7 @@
       </section>
 
       <!-- Meals Section -->
-      <section class="section-meals">
+      <section class="section-meals" id="meals">
         <div class="container center-text">
           <span class="meals-span orange-span">Meals</span>
           <h2 class="secendary-heading">
@@ -321,7 +326,7 @@
       </section>
 
       <!-- Testimonials Section -->
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonials">
         <div class="testimonials grid grid--2-cols">
           <div class="testimonial-intro">
             <span class="testimonial-span orange-span">testimonials</span>
@@ -423,7 +428,7 @@
       </section>
 
       <!-- Pricing Section -->
-      <section class="section-pricing margin-top-lg">
+      <section class="section-pricing margin-top-lg" id="pricing">
         <div class="container margin-bottom-md">
           <span class="orange-span">pricing</span>
           <h2 class="secendary-heading">
@@ -549,7 +554,8 @@
         </div>
       </section>
 
-      <section class="section-cta">
+      <!-- Call to action Section -->
+      <section class="section-cta" id="cta">
         <div class="container margin-bottm-lg">
           <div class="cta">
             <div class="cta-content">
@@ -691,8 +697,5 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-
-    <!-- script -->
-    <script src="./script.js"></script>
   </body>
 </html>

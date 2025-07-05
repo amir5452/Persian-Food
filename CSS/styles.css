@@ -4,6 +4,7 @@
 
 .btn-mobile-nav {
   display: none;
+  cursor: pointer;
 }
 
 .header-section {
