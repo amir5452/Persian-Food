@@ -1,6 +1,11 @@
 /* ***************** */
 /* Header */
 /* ***************** */
+
+.btn-mobile-nav {
+  display: none;
+}
+
 .header-section {
   display: flex;
   justify-content: space-between;
@@ -137,7 +142,7 @@
 }
 
 .step-img-box::before {
-  content: "";
+  content: '';
   padding: 30%;
   z-index: -2;
   border-radius: 50%;
@@ -146,7 +151,7 @@
 }
 
 .step-img-box::after {
-  content: "";
+  content: '';
   padding: 23%;
   z-index: -1;
   border-radius: 50%;
@@ -393,6 +398,10 @@
 /* Pricing Section */
 /* **************** */
 
+.pricing-features-intro-box {
+  padding-top: 0 !important;
+}
+
 .pricing-plan {
   width: 80%;
   padding: 6.4rem;
@@ -411,7 +420,7 @@
 }
 
 .pricing-plan-fill::after {
-  content: "best value";
+  content: 'best value';
   text-transform: uppercase;
   color: #333;
   background-color: #ffd43b;
@@ -473,6 +482,7 @@
 /* **************** */
 .features-container {
   column-gap: 4.8rem;
+  margin-bottom: 4.8rem;
 }
 
 .feature-icon {
@@ -504,7 +514,6 @@
   grid-template-columns: 2fr 1fr;
   column-gap: 4.8rem;
   background-image: linear-gradient(to bottom right, #eb984e, #e67e22);
-  height: 50rem;
   border-radius: 11px;
   overflow: hidden;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.3);
@@ -582,6 +591,8 @@
     ),
     url(../img/eating.jpg);
   background-size: cover;
+
+  background-position: center;
 }
 
 /* ***************** */
