@@ -23,9 +23,10 @@
   height: 13rem;
   position: fixed;
   width: 100%;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
   z-index: 1;
   box-shadow: 0 1.2rem 4.8rem rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
   padding: 0 3.2rem;
 }
 
