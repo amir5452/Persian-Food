@@ -4,6 +4,7 @@ const btnMobileNav = document.querySelector('.btn-mobile-nav');
 const headerEl = document.querySelector('.header-section');
 
 const heroSection = document.querySelector('.section-hero');
+const headerHeight = headerEl.getBoundingClientRect().height;
 
 btnMobileNav.addEventListener('click', function () {
   headerEl.classList.toggle('open-nav');
@@ -54,6 +55,10 @@ const makeHeaderSticky = function (entries) {
 const observer = new IntersectionObserver(makeHeaderSticky, {
   root: null,
   threshold: 0,
+  rootMargin: `-${headerHeight}px`,
 });
 
 observer.observe(heroSection);
+
+// Add header height margin to top of hero section
+heroSection.style.marginTop = `${headerHeight}px`;
