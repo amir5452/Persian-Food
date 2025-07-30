@@ -3,6 +3,8 @@ const btnMobileNav = document.querySelector('.btn-mobile-nav');
 
 const headerEl = document.querySelector('.header-section');
 
+const heroSection = document.querySelector('.section-hero');
+
 btnMobileNav.addEventListener('click', function () {
   headerEl.classList.toggle('open-nav');
 });
@@ -40,3 +42,18 @@ allLinks.forEach(function (link) {
     }
   });
 });
+
+// Implementing sticky navigation bar
+
+const makeHeaderSticky = function (entries) {
+  entries.forEach(entry => {
+    headerEl.classList.toggle('header-sticky', !entry.isIntersecting);
+  });
+};
+
+const observer = new IntersectionObserver(makeHeaderSticky, {
+  root: null,
+  threshold: 0,
+});
+
+observer.observe(heroSection);
