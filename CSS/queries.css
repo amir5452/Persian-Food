@@ -41,6 +41,10 @@
 /* Responding to tablets */
 
 @media (max-width: 58em) {
+  .section-hero {
+    margin-top: 0;
+  }
+
   .footer-grid {
     grid-template-columns: repeat(6, 1fr);
   }

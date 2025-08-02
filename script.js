@@ -61,4 +61,3 @@ const observer = new IntersectionObserver(makeHeaderSticky, {
 observer.observe(heroSection);
 
 // Add header height margin to top of hero section
-heroSection.style.marginTop = `${headerHeight}px`;
