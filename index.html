@@ -107,11 +107,16 @@
           </div>
 
           <div class="hero-img-box">
-            <img
-              src="./img/hero.png"
-              alt="A woman enjoying food, and foods in contaiers"
-              class="hero-img"
-            />
+            <picture>
+              <source srcset="./img/hero-webp.webp" type="image/webp" />
+              <source srcset="./img/hero-min.png" type="image/png" />
+
+              <img
+                class="hero-img"
+                src="./img/hero-min.png"
+                alt="image of a woman eating food and bowls of food displaying japanese food"
+              />
+            </picture>
           </div>
         </div>
       </section>
